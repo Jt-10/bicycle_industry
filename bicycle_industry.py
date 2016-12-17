@@ -48,7 +48,7 @@ class BikeShop(object):
     def sell_bike(self, bike):
         total_profit = 0
         total_profit += (bike.cost * self.margin)
-        del inventory[bike]
+        del inventory[]
         return inventory, total_profit
 
 
